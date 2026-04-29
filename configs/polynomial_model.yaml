@@ -1,0 +1,13 @@
+# YOLOv8 Segmentation — Polynomial Model finger dataset
+# Label Studio export, YOLO segmentation format
+# Classes: right-hand-index (0), right-hand-middle (1), right-hand-thumb (2)
+
+path: data/processed/2026-04-23-07-45_Polynomial_Model/yolo_split   # relative to project root
+train: images/train
+val: images/val
+
+nc: 3
+names:
+  0: right-hand-index
+  1: right-hand-middle
+  2: right-hand-thumb

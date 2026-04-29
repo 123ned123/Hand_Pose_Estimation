@@ -1,0 +1,21 @@
+# --- Operating System Files ---
+.DS_Store
+Thumbs.db
+
+# --- Python ---
+__pycache__/
+*.pyc
+venv/
+env/
+.venv/
+.env   # NEVER upload this if it has keys!
+.data
+data
+
+.tests
+.runs
+tests
+runs
+# --- IDE Settings (Optional) ---
+.vscode/
+.idea/
